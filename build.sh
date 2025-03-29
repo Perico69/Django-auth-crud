@@ -3,7 +3,7 @@
 set -o errexit
 
 #poetry install
-#pip install -r rquirements.txt
+pip install -r rquirements.txt
 # Convert static asset files
 python manage.py collectstatic --no-input
 
